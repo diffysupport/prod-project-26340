@@ -179,7 +179,7 @@ advanced:
     mask: ''
     remove: ''
     isolate: ''
-    delay: 5
+    delay: 10
     scroll: true
     headers:
         - { header: '', value: '' }
