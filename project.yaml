@@ -5,16 +5,8 @@ basic:
         staging: 'https://otsukacorp67116main.prod.oapi.com/'
         development: ''
     breakpoints:
-        - 360
         - 375
-        - 390
-        - 720
-        - 1024
-        - 1366
         - 1440
-        - 1920
-        - 2000
-        - 1514
     pages:
         - discover/2nd-national-forum-on-mental-health-policy
         - discover/akebia-and-otsuka-expand-relationship
@@ -194,7 +186,19 @@ advanced:
     cookies: ''
     custom_js: ''
     custom_css: ''
-    mock_content: ''
+    mock_content:
+        - { selector: '', type: title }
+    login:
+        type: none
+        click_element: false
+        click_element_selector: ''
+        login_url: ''
+        username: ''
+        password: ''
+        username_selector: ''
+        password_selector: ''
+        submit_selector: ''
+        after_login_selector: ''
     performance:
         workers_production: 30
         workers_nonproduction: 10
