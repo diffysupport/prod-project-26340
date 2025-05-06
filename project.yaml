@@ -184,7 +184,7 @@ advanced:
     headers:
         - { header: '', value: '' }
     cookies: ''
-    custom_js: ''
+    custom_js: 'document.querySelector("#onetrust-reject-all-handler").click()'
     custom_css: ''
     mock_content:
         - { selector: '', type: title }
